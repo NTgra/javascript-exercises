@@ -7,8 +7,7 @@ const palindromes = function (value) {
     
     for (let j=0; j<i/2; j++){
         if(str[j]===str[i-j]){
-            matches++;
-            
+            matches++;         
         }
     }
     if (matches>=matchesNeeded){ 
